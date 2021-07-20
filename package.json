@@ -1,0 +1,48 @@
+{
+    "private": true,
+    "scripts": {
+        "start": "react-scripts start",
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.0.0",
+        "axios": "^0.19.2",
+        "bootstrap": "^4.5.2",
+        "cross-env": "^7.0",
+        "jquery": "^3.2",
+        "laravel-mix": "^5.0.1",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.12",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0",
+        "resolve-url-loader": "^3.1.0",
+        "sass": "^1.15.2",
+        "sass-loader": "^8.0.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.30",
+        "@fortawesome/free-solid-svg-icons": "^5.14.0",
+        "@fortawesome/react-fontawesome": "^0.1.4",
+        "@phuocng/react-pdf-viewer": "^1.7.0",
+        "@react-pdf-viewer/core": "^2.2.1",
+        "@zoomus/websdk": "^1.9.6",
+        "dom-to-image": "^2.6.0",
+        "dom-to-pdf": "^0.1.2",
+        "html2canvas": "^1.0.0-rc.7",
+        "jspdf": "^2.1.1",
+        "jwt-decode": "^3.1.2",
+        "pdfjs-dist": "^2.5.207",
+        "react-datepicker": "^3.3.0",
+        "react-pdf": "^5.0.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "^4.0.3",
+        "reactstrap": "^8.8.1",
+        "simple-react-validator": "^1.6.0"
+    }
+}

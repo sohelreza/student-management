@@ -1,0 +1,38 @@
+.navbar-toggler-icon.icon-bar {
+    background-color: yellow !important;
+}
+
+.navbar-nav {
+    /* float: right !important; */
+    justify-content: flex-end !important;
+}
+
+.navbar-nav,
+.nav-link,
+.nav-link:hover:not(.active) {
+    margin-bottom: 4px !important;
+}
+
+.nav-link:active {
+    margin-bottom: -6px !important;
+}
+
+.dropdown-link {
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    color: rgb(241, 238, 233);
+}
+
+.dropdown-link:hover {
+    color: #af9a7d;
+    text-decoration: none;
+}
+
+.active {
+    color: #af9a7d;
+}
+
+.navbar-scroll {
+    overflow-y: scroll;
+    max-height: 400px;
+}

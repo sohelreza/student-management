@@ -1,0 +1,311 @@
+.body {
+    margin-top: 105px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    /* box-shadow: 2px 2px 5px #3292a6; */
+    /* opacity: 0.9; */
+    background: #313a46 !important;
+    /* color:#fff; */
+}
+
+.navbar .nav-item {
+    padding-right: 1rem !important;
+    font-size: 1.4rem !important;
+}
+
+.heading-underline {
+    width: 30%;
+    height: 0.3rem;
+    background-color: #af9a7d;
+    margin: 0 auto 15px;
+}
+
+.content-underline {
+    width: 20%;
+    height: 0.2rem;
+    background-color: #af9a7d;
+    margin: 0 auto 5px;
+}
+
+.update-button,
+.update-button:active {
+    background-color: #af9a7d !important;
+    border: 3px solid #af9a7d !important;
+    letter-spacing: 2px;
+}
+
+.update-button:hover {
+    background-color: #ffffff !important;
+    color: #af9a7d;
+    border: 3px solid #af9a7d !important;
+    letter-spacing: 2px;
+    transition: 700ms;
+}
+
+.dashboard-content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notification-margin {
+    background-color: #ffffff;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+    border-color: #ffffff;
+}
+
+.dashboard-card-button {
+    background-color: #af9a7d !important;
+    border: 3px solid #af9a7d !important;
+    letter-spacing: 2px;
+}
+
+.dashboard-card-button:hover,
+.dashboard-card-button:active,
+.dashboard-card-button:focus {
+    background-color: #ffffff !important;
+    color: #af9a7d !important;
+    border: 3px solid #af9a7d !important;
+    letter-spacing: 2px;
+    transition: 700ms;
+}
+
+.dashboard-card-alert-button {
+    background-color: #f44336 !important;
+    border: 3px solid #f44336 !important;
+    letter-spacing: 2px;
+}
+
+.dashboard-card-alert-button:hover,
+.dashboard-card-alert-button:active,
+.dashboard-card-alert-button:focus {
+    background-color: #ffffff !important;
+    color: #f44336 !important;
+    border: 3px solid #f44336 !important;
+    letter-spacing: 2px;
+    transition: 700ms;
+}
+
+.dashboard-text-alert {
+    color: #f44336;
+}
+
+.card-1 {
+    padding-left: 0px !important;
+}
+
+.card-2 {
+    padding-right: 0px !important;
+}
+
+@media (min-width: 1200px) {
+    .app-margin {
+        margin-right: 100px !important;
+        margin-left: 100px !important;
+    }
+    .component-header {
+        letter-spacing: 3px;
+        font-weight: 600;
+        overflow: auto;
+    }
+    p {
+        overflow: auto;
+    }
+    .component-sub-header {
+        letter-spacing: 3px;
+        font-weight: 600;
+    }
+    .dashboard-content {
+        max-width: 80%;
+    }
+    .dashboard-content th {
+        max-width: 100px;
+    }
+    .dashboard-content td {
+        max-width: 280px;
+    }
+}
+
+@media (min-width: 1158px) and (max-width: 1199px) {
+    .app-margin {
+        margin-right: 100px !important;
+        margin-left: 100px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1159px) {
+    .app-margin {
+        margin-right: 80px !important;
+        margin-left: 80px !important;
+    }
+    .component-header {
+        letter-spacing: 2px;
+        font-weight: 600;
+        overflow: auto;
+    }
+    p {
+        overflow: auto;
+    }
+    .component-sub-header {
+        letter-spacing: 2px;
+        font-weight: 600;
+    }
+    .dashboard-content {
+        max-width: 85%;
+    }
+    .dashboard-content th {
+        max-width: 100px;
+    }
+    .dashboard-content td {
+        max-width: 170px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .app-margin {
+        margin-right: 60px !important;
+        margin-left: 60px !important;
+    }
+    .component-header {
+        letter-spacing: 1px;
+        font-weight: 600;
+        overflow: auto;
+    }
+    p {
+        overflow: auto;
+    }
+    .component-sub-header {
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    .dashboard-content {
+        max-width: 90%;
+    }
+    .dashboard-content th {
+        max-width: 100px;
+    }
+    .dashboard-content td {
+        max-width: 120px;
+    }
+    .card-1 {
+        padding-left: 0px !important;
+    }
+    .card-2 {
+        padding-right: 0px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .app-margin {
+        margin-right: 40px !important;
+        margin-left: 40px !important;
+    }
+    .component-header {
+        letter-spacing: 2px;
+        font-weight: 600;
+        overflow: auto;
+    }
+    p {
+        overflow: auto;
+    }
+    .component-sub-header {
+        letter-spacing: 2px;
+        font-weight: 600;
+    }
+    .dashboard-content {
+        max-width: 95%;
+    }
+    .dashboard-content th {
+        max-width: 100px;
+    }
+    .dashboard-content td {
+        max-width: 120px;
+    }
+    .card-1 {
+        padding-left: 0px !important;
+    }
+    .card-2 {
+        padding-right: 0px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .app-margin {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+    .component-header {
+        letter-spacing: 1px;
+        font-weight: 600;
+        overflow: auto;
+    }
+    p {
+        overflow: auto;
+    }
+    .component-sub-header {
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    .dashboard-content {
+        max-width: 100%;
+    }
+    .dashboard-content th {
+        max-width: 80px;
+    }
+    .dashboard-content td {
+        max-width: 45px;
+    }
+    .card-1 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .card-2 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+footer {
+    background-color: #30343a;
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 4rem;
+}
+
+.footer-list {
+    display: inline;
+    list-style-type: none;
+}
+
+.footer-list li {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+footer img {
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 1.2rem 0.5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+    color: #1ebba3 !important;
+}
+
+hr.socket {
+    width: 100%;
+    border-top: 0.2rem solid #666b71;
+    margin-top: 3rem;
+}

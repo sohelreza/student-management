@@ -1,0 +1,97 @@
+.join-class-background {
+    background-color: #f1f1f1 !important;
+}
+
+.height-top {
+    height: 70px;
+}
+
+.live-class-margin {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.live-class-content {
+    background-color: #f1f1f1;
+    margin-left: 210px;
+    padding: 1px 16px;
+    height: auto !important;
+}
+
+.live-class-background {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.live-class-header {
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.heading-underline {
+    width: 30%;
+    height: 0.3rem;
+    background-color: #af9a7d;
+    margin: 0 auto 15px;
+}
+
+.horizontal-scroll {
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.class-finished-status {
+    background-color: crimson;
+    padding: 5px;
+    border-radius: 3px;
+    color: floralwhite;
+}
+
+.class-scheduled-status {
+    background-color: rgb(216, 201, 63);
+    padding: 5px;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+}
+
+.class-live-status {
+    background-color: rgb(17, 207, 58);
+    padding: 5px;
+    border-radius: 3px;
+    color: floralwhite;
+}
+
+.class-join-action {
+    background-color: rgb(17, 207, 58);
+    padding: 5px 10px;
+    border: 0 rgb(17, 207, 58);
+    border-radius: 3px;
+    color: floralwhite;
+}
+
+.class-join-action:hover,
+.class-join-action:active,
+.class-join-action:focus {
+    background-color: rgb(9, 83, 25) !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0rem rgb(248, 247, 247);
+}
+
+.disabled {
+    background-color: lightslategray !important;
+}
+
+.live-class-history-button {
+    background-color: #af9a7d !important;
+    border: 3px solid #af9a7d !important;
+    letter-spacing: 2px;
+}
+
+.live-class-history-button:hover {
+    background-color: #ffffff !important;
+    color: #af9a7d !important;
+    border: 3px solid #af9a7d !important;
+    letter-spacing: 2px;
+    transition: 700ms;
+}

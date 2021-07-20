@@ -1,0 +1,418 @@
+@import url("https://fonts.googlepis.com/css?family=Lato:400,700");
+@import url("../../../assests/css/style.css");
+
+/*--- Extra Bootstrap Column Padding --*/
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+/*--- Bootstrap Mobile Gutter Fix --*/
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+
+/*--- Fix for Fixed Navbar jumping on scroll --*/
+
+.fixed-top {
+    -webkit-backface-visibility: hidden;
+}
+
+
+/*--- Fixed Landing Page Section --*/
+
+.landing {
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    display: table;
+    z-index: -1;
+}
+
+.home-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home-inner {
+    position: fixed;
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+.total-amount {
+    border: 1px solid #cccccc;
+    border-radius: 30px;
+}
+
+
+/*--- iOS Fixed Background Image --*/
+
+.fixed-background {
+    position: relative;
+    width: 100%;
+}
+
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999 !important;
+}
+
+.fixed {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Lato", sans-serif;
+    color: #505962;
+}
+
+.offset:before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -11rem;
+}
+
+.offset-footer:before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -15rem;
+}
+
+
+/*-------------Navigation------------------*/
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    /* background: #F8F9FA!important; */
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.navbar-brand img {
+    height: 2rem;
+}
+
+.navbar-nav li {
+    padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    padding-top: 0.8rem;
+    font-size: 14px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #2f5c2f;
+}
+
+
+/*-------------Landing Page-------------*/
+
+.home-inner {
+    background-image: url("../../../assests/images/apple.png");
+}
+
+.registration-heading {
+    font-size: 40px;
+    /* padding-bottom: 20px; */
+    text-shadow: 2px 3px 3px #7e7b73;
+    letter-spacing: 7px;
+    font-weight: 600;
+}
+
+.registration-form {
+    box-shadow: 2px 2px 4px #80808054;
+    border: 1px solid rgb(204, 204, 204) !important;
+    margin-bottom: 10px;
+}
+
+.registration-form:hover {
+    box-shadow: 4px 5px 4px #80808054;
+    transition: box-shadow 500ms;
+}
+
+.registration-button {
+    background-color: #af9a7d;
+    border: 3px solid #af9a7d !important;
+    letter-spacing: 2px;
+}
+
+.registration-button:hover {
+    background-color: #ffffff;
+    color: #af9a7d;
+    border: 3px solid #af9a7d !important;
+    letter-spacing: 2px;
+    transition: 700ms;
+}
+
+.caption {
+    width: 90%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    text-shadow: 0.1rem 0.1rem 0.5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.input-box {
+    background-color: #fff;
+    border-radius: 40px;
+    /* opacity: 0.9;
+    position: absolute;
+    top: 4.8rem; */
+    width: 100%;
+    height: auto;
+}
+
+form {
+    content: "";
+    /* position: absolute; */
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background-color: #ffffff;
+    /* z-index: -1; */
+    border-radius: 10px;
+}
+
+
+/* .form-col{
+    padding: unset;
+} */
+
+.btn-lg {
+    margin-top: 1.5rem;
+    border-width: medium;
+    border-radius: 0;
+    padding: 0.6rem 1.3rem;
+    font-size: 1.1rem;
+}
+
+.forgot-caption a {
+    color: white;
+}
+
+.small-text {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.small-text:hover {
+    text-decoration: none;
+    color: rgb(20, 32, 32) !important;
+}
+
+.register-anchor {
+    display: inline-block;
+    font-size: 17px;
+    color: rgb(20, 32, 32) !important;
+}
+
+.register-anchor:hover {
+    text-decoration: none !important;
+    color: #af9a7d !important;
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 7rem 2rem;
+}
+
+.form-check {
+    text-align: center;
+}
+
+.form-check-input {
+    margin-top: 20px;
+}
+
+.course-fee-text {
+    font-size: larger;
+}
+
+.course-fee-amount-text {
+    font-size: large;
+    font-weight: 900;
+}
+
+.validation-text-error {
+    color: #dc3545;
+    font-size: 0.85rem;
+    text-transform: capitalize;
+}
+
+.checked-validation {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.submit-text-error {
+    font-size: 20px;
+}
+
+
+/*------------Contact------------*/
+
+footer {
+    background-color: #30343a;
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 4rem;
+}
+
+footer img {
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 1.2rem 0.5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+    color: #1ebba3 !important;
+}
+
+hr.socket {
+    width: 100%;
+    border-top: 0.2rem solid #666b71;
+    margin-top: 3rem;
+}
+
+.subject-checkbox {
+    padding-left: 2.5rem !important;
+}
+
+
+/*---------Media Queries-----------*/
+
+@media (max-width: 576px) {
+    .caption h1 {
+        font-size: 2.3rem;
+        letter-spacing: 0.15rem;
+        padding-bottom: 0.5rem;
+    }
+    .caption h3 {
+        font-size: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+    .btn-lg {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+    .small-text {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    .subject-checkbox {
+        padding-left: 0rem !important;
+    }
+    /* .register-anchor { */
+    /* float: right;
+        clear: both; */
+    /* display: block;
+        text-align: center;
+        width: 100%; */
+    /* } */
+    /* .next-line {
+        float: left;
+        clear: left;
+        text-align: center;
+    } */
+}
+
+@media (max-width: 768px) {
+    .next-line {
+        display: block !important;
+        text-align: center;
+        /* margin: auto;
+        margin-right: auto;
+        margin-left: auto; */
+    }
+    .subject-checkbox {
+        padding-left: 0rem !important;
+    }
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
